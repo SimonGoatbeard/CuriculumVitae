@@ -1,0 +1,311 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017-02-03, 14:39:29
+    Author     : simon
+*/
+@font-face {
+    font-family: Ubuntu;
+    src: url('../FONTS/Ubuntu.ttf');
+}
+
+@font-face {
+    font-family: Acme;
+    src: url('../FONTS/Acme.ttf');
+}
+
+@font-face {
+    font-family: PaytoneOne;
+    src: url('../FONTS/PaytoneOne.ttf');
+}
+
+@font-face {
+    font-family: Pattaya;
+    src: url('../FONTS/Pattaya.ttf');
+}
+
+@font-face {
+    font-family: FrancoisOne;
+    src: url('../FONTS/FrancoisOne.ttf');
+}
+
+body{
+    background-color: #2f3234;
+}
+
+h1{
+    font-family: FrancoisOne;
+    color: #333333;
+    padding-top: 55px;
+    padding-left: 50px;
+}
+
+h2{
+    font-family: FrancoisOne;
+    color: #333333;
+    padding-left: 50px;
+}
+
+
+#wrapper{
+    width: 996px;
+    margin: 0 auto;
+    height: 4350px;
+}
+
+#mainPage{
+    position: relative;
+    width: 100%;
+    height: 4100px;
+    background-color: white;
+    z-index: 1;
+}
+
+#menu{
+    width: 996px;
+    height: 50px;
+    top: 8px;
+    background-color: #431d3c;
+    position: fixed;
+    z-index: 4;
+}
+
+#header{
+    width: 100%;
+    height: 250px;
+    background-color: #4a2043;
+}
+
+#leftContent{
+    width: 200px;
+    height: 3850px;
+    background-color: #4a2043;
+    float: left;
+}
+
+#rightContent{
+    width: 100%;
+    margin-top: -50px;
+    margin-left: 150px;
+    padding-left: 50px;
+}
+
+#footer{
+    width: 996px;
+    height: 250px;
+    bottom: 8px;
+    background-color: #4a2043;
+    position: fixed;
+    z-index: 0;
+    color: white;
+}
+
+#photo{
+    max-height: 160px;
+    max-width: 120px;
+    width: 120px;
+    height: 160px;
+    border: 5px white solid;
+    margin-top: -195px;
+    margin-left: 35px;
+    position: fixed;
+}
+
+#kontakt{
+    color: white;
+    margin-top: -30px;
+}
+
+#textbar{
+    position: fixed;
+    color: white;
+    margin-top: 45px;
+    background-color: #4a2043;
+    width: 200px;
+    height: 30px;
+    font-family: Ubuntu;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#watch{
+    font-family: Ubuntu;
+    position: relative;
+    float: right;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 17px;
+}
+
+#spriteHead{
+    background: url('../IMG/spriteSheet.png') 152px 516px;
+    width: 30px;
+    height: 30px;
+    margin-top: -40px;
+    margin-left: 8px;
+    position: relative;
+    z-index: 5;
+}
+
+#spriteBody{
+    background: url('../IMG/spriteSheet.png') 272px 516px;
+    width: 30px;
+    height: 30px;
+    margin-top: -40px;
+    margin-left: 8px;
+    position: relative;
+    z-index: 5;
+}
+
+#spriteBoots{
+    background: url('../IMG/spriteSheet.png') 392px 486px;
+    width: 30px;
+    height: 30px;
+    margin-top: -40px;
+    margin-left: 8px;
+    position: relative;
+    z-index: 5;
+}
+
+#spriteGlove{
+    background: url('../IMG/spriteSheet.png') 152px 486px;
+    width: 30px;
+    height: 30px;
+    margin-top: -40px;
+    margin-left: 8px;
+    position: relative;
+    z-index: 5;
+}
+
+#spriteWeapon{
+    background: url('../IMG/spriteSheet.png') 272px 62px;
+    width: 30px;
+    height: 30px;
+    margin-top: -40px;
+    margin-left: 8px;
+    position: relative;
+    z-index: 5;
+}
+
+#skillDescription{
+    text-align: left;
+}
+
+.menuItem{
+    font-family: Ubuntu;
+    position: relative;
+    float: left;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 17px;
+}
+
+.menuItem:hover{
+    background-color: #4a2043;
+}
+
+.menuLink{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.menuLink:hover{
+    text-decoration: none;
+    color: red;
+    width: 100%;
+    height: 100%;
+}
+
+.headerH1{
+    font-family: Acme;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 4px;
+    padding-left: 250px;
+    padding-top: 80px;
+}
+
+.headerH2{
+    font-family: Pattaya;
+    color: white;
+    letter-spacing: 3px;
+    padding-left: 650px;
+    padding-top: 5px;
+}
+
+.content{
+    font-family: Ubuntu;
+    color: #333333;
+    padding-left: 50px;
+    padding-right: 250px;
+    text-align: justify;
+    position:relative;
+    float:none;
+}
+
+.floatingIcons{
+    margin-left: 30px;
+    position: fixed;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+
+.faLink:hover{
+    color: red;
+    font-size: 33px;
+}
+
+.university{
+    width: 40px;
+    height: 40px;
+    padding-top: 35px;
+    position: relative;
+    float: left;
+}
+
+.date{
+padding-top: 15px;
+}
+
+.footContent{
+    font-family: Ubuntu;
+    color: white;
+    margin-top: -20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position:relative;
+    float:left;
+}
+
+.crates{
+    position: relative;
+    z-index: 0;
+    color: #431d3c;
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+.textSkills{
+    font-family: Ubuntu;
+    color: #333333;
+    height: 220px;
+    width: 610px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: -250px;
+    margin-left: 120px;
+    text-align: center;
+    position:relative;
+}
